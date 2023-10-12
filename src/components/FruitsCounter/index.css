@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 22px;
+  display: flex;
+}
+@media (min-width: 762px) {
+  .bg-container {
+    min-width: 100%;
+    max-width: 80%;
+  }
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  background-color: white;
+  border-radius: 7px;
+  padding: 19px;
+}
+@media (min-width: 762px) {
+  .card-container {
+    min-height: 100;
+  }
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin-bottom: 17px;
+}
+span {
+  color: #ffd569;
+}
+@media (min-width: 762px) {
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 17px;
+}
+@media (min-width: 762px) {
+  .card-container {
+    flex-direction: column;
+  }
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+button {
+  background-color: blueviolet;
+  border-radius: 5px;
+  cursor: pointer;
+  border-width: 0;
+  padding: 7px;
+  max-width: 100%;
+  outline: none;
+  margin-top: 17px;
+  color: white;
+}
